@@ -14,5 +14,19 @@ namespace Lab3.Entity
         public double Money { get; set; }
         public DateTime CreatedDate { get; set; }
         public int Category { get; set; }
+
+        public PersonalTransaction()
+        {
+
+        }
+
+        public PersonalTransaction(string name, string description, double money, DateTime createDate, int category)
+        {
+            Name = name;
+            Description = description;
+            Money = money;
+            CreatedDate = createDate;
+            Category = category;
+        }
     }
 }

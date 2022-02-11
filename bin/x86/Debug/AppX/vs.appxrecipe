@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C5AF3F1E281B471D441488970ACA7892EE6B52E213F1E40228F65A8CF1D6911C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1469A87BBC6A6062798C15AF5F7A5B0E811BAF4B4EAF4A44DDAADE0738F26E14</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>847f2130-3880-4232-9a9d-d8da96734e57_1.0.0.0_x86__174hawkq8t31y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>847f2130-3880-4232-9a9d-d8da96734e57_174hawkq8t31y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>847f2130-3880-4232-9a9d-d8da96734e57</RegisteredPackageID>
@@ -30,13 +30,17 @@
     <AppXManifest Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-10T14:39:26.891</Modified>
+      <Modified>2022-02-11T16:12:09.224</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Lab3.exe">
       <PackagePath>entrypoint\Lab3.exe</PackagePath>
-      <Modified>2022-02-10T14:39:26.468</Modified>
+      <Modified>2022-02-11T16:12:08.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\phuon\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2021-11-18T22:29:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -57,6 +61,10 @@
     <AppxPackagedFile Include="C:\Users\phuon\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
       <Modified>2014-12-09T11:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\phuon\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2021-11-18T21:54:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -98,19 +106,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Lab3.xr.xml">
       <PackagePath>Lab3.xr.xml</PackagePath>
-      <Modified>2022-02-10T14:30:54.633</Modified>
+      <Modified>2022-02-11T16:01:05.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-10T14:34:22.841</Modified>
+      <Modified>2022-02-11T16:12:08.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-10T14:34:22.841</Modified>
+      <Modified>2022-02-11T16:12:08.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Pages\CreatePersonalTransactionPage.xbf">
       <PackagePath>Pages\CreatePersonalTransactionPage.xbf</PackagePath>
-      <Modified>2022-02-10T14:34:22.841</Modified>
+      <Modified>2022-02-11T16:12:08.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Pages\ListPersonalTransactionPage.xbf">
+      <PackagePath>Pages\ListPersonalTransactionPage.xbf</PackagePath>
+      <Modified>2022-02-11T16:12:08.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-01T21:59:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,14 +134,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-10T14:30:58.636</Modified>
+      <Modified>2022-02-11T15:39:59.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Core\Lab3.exe">
       <PackagePath>Lab3.exe</PackagePath>
-      <Modified>2022-02-10T14:39:26.888</Modified>
+      <Modified>2022-02-11T16:12:09.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2021-09-14T09:06:08.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2109.13004.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\phuon\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.29713.2</Version>

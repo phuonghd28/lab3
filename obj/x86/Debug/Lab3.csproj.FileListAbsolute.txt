@@ -14,7 +14,6 @@ C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\System.Runtime.dll
 C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\sqlite3.dll
 C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\SQLitePCL.dll
 C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Lab3.csproj.AssemblyReference.cache
 C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\App.g.i.cs
 C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\App.g.cs
 C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\MainPage.g.i.cs
@@ -56,3 +55,14 @@ C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\CreatePersonalTransact
 C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\CreatePersonalTransactionPage.g.cs
 C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\CreatePersonalTransactionPage.xaml
 C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\CreatePersonalTransactionPage.xbf
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\ListPersonalTransactionPage.g.i.cs
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\ListPersonalTransactionPage.g.cs
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\ListPersonalTransactionPage.xaml
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Pages\ListPersonalTransactionPage.xbf
+C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Pages\ListPersonalTransactionPage.xbf
+C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll
+C:\Users\phuon\source\repos\App1\Lab3\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\phuon\source\repos\App1\Lab3\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Resources.resw

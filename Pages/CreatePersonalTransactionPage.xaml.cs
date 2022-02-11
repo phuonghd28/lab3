@@ -30,7 +30,7 @@ namespace Lab3.Pages
             this.InitializeComponent();
         }
 
-        private void Create_Personal_Transaction(object sender, RoutedEventArgs e)
+        private async void Create_Personal_Transaction(object sender, RoutedEventArgs e)
         {
             var personalTransaction = new PersonalTransaction()
             {
@@ -43,14 +43,26 @@ namespace Lab3.Pages
 
             var database = new DatabaseInitialize();
             var result = database.InsertData(personalTransaction);
+            var dialog = new ContentDialog();
             if (result)
             {
-                Debug.WriteLine("Insert data success !!");
+                dialog.Title = "Success";
+                dialog.Content = "Insert data success !!";
+                dialog.PrimaryButtonText = "Close";
+                await dialog.ShowAsync();
             } else
             {
-                Debug.WriteLine("Insert data failed !!");
+                dialog.Title = "Failed";
+                dialog.Content = "Insert data failed !!";
+                dialog.PrimaryButtonText = "Close";
+                await dialog.ShowAsync();
             }
 
+        }
+
+        private void Redirect_List(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Pages.ListPersonalTransactionPage));
         }
     }
 }

@@ -12,4 +12,5 @@ App.xbf
 Lab3.xr.xml
 MainPage.xbf
 Pages\CreatePersonalTransactionPage.xbf
+Pages\ListPersonalTransactionPage.xbf
 Properties\Default.rd.xml

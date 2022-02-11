@@ -9,13 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:ConnectionId='2' x:Name="Name" HorizontalAlignment="Left" Margin="316,187,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Name"/>
-        <TextBox x:ConnectionId='3' x:Name="Description" HorizontalAlignment="Left" Margin="316,245,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Description"/>
-        <TextBox x:ConnectionId='4' x:Name="Money" HorizontalAlignment="Left" Margin="316,301,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Money"/>
-        <TextBox x:ConnectionId='5' x:Name="CreateDate" HorizontalAlignment="Left" Margin="316,359,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="CreateDate"/>
+        <TextBox x:ConnectionId='2' x:Name="Name" HorizontalAlignment="Left" Margin="316,187,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Name"/>
+        <TextBox x:ConnectionId='3' x:Name="Description" HorizontalAlignment="Left" Margin="316,245,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Description"/>
+        <TextBox x:ConnectionId='4' x:Name="Money" HorizontalAlignment="Left" Margin="316,301,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Money"/>
+        <TextBox x:ConnectionId='5' x:Name="CreateDate" HorizontalAlignment="Left" Margin="316,359,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="CreateDate"/>
         <Button x:ConnectionId='6' Content="Add " Margin="408,494,0,0" Width="107" VerticalAlignment="Top"                                    />
-        <Button Content="List" Margin="750,181,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.501,0.552"/>
-        <TextBox x:ConnectionId='7' x:Name="Category" HorizontalAlignment="Left" Margin="316,416,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Category"/>
+        <Button x:ConnectionId='7' Content="List" Margin="750,223,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.501,0.552"                      />
+        <TextBox x:ConnectionId='8' x:Name="Category" HorizontalAlignment="Left" Margin="316,416,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Header="Category"/>
 
     </Grid>
 </Page>
